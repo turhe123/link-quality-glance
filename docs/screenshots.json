@@ -1,0 +1,5 @@
+[
+  {"file":"01-popover.png","caption":"The menu bar popover gives a Good verdict, with live latency sparklines for the gateway and outside host, latency/jitter/loss stats, and Wi-Fi signal, Tx rate and channel details.","alt":"LinkQualityGlance popover showing a Good Wi-Fi verdict with sparklines and stats"},
+  {"file":"02-settings.png","caption":"Settings let you choose the outside host and probe interval, tune the Good and Poor thresholds, and turn on the menu bar latency readout, notifications and launch at login.","alt":"LinkQualityGlance Settings window with probing, thresholds and general options"},
+  {"file":"03-paused.png","caption":"Pausing stops the probes and keeps the last measurements on screen until you click Resume.","alt":"LinkQualityGlance popover in the Paused state"}
+]

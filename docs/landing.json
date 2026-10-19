@@ -1,0 +1,60 @@
+{
+  "seo_title": "Wi-Fi quality monitor for macOS",
+  "seo_description": "LinkQualityGlance is a free, open-source menu bar app that turns gateway latency, packet loss, jitter and Wi-Fi signal into one Good, Check or Poor verdict.",
+  "hero_title_line1": "Is it your Wi-Fi",
+  "hero_title_accent": "or your provider?",
+  "hero_sub": "A colored Wi-Fi glyph in your menu bar gives a Good, Check or Poor verdict from gateway and outside-host latency, jitter and loss. Click it for details, press ⌘, to tune thresholds.",
+  "features_title": "Diagnosis at a glance.",
+  "features_sub": "Everything is measured on your Mac and condensed into a verdict you can read in a second.",
+  "features": [
+    {
+      "icon": "eye",
+      "title": "One verdict in the menu bar",
+      "desc": "The Wi-Fi glyph turns green, orange or red for Good, Check or Poor, with an optional average latency readout beside it."
+    },
+    {
+      "icon": "bolt",
+      "title": "Gateway and outside host",
+      "desc": "Probes your router and a host you choose (default 1.1.1.1) every 1 to 10 seconds. The explanation tells local Wi-Fi trouble from problems on your provider's side."
+    },
+    {
+      "icon": "display",
+      "title": "Live sparklines and stats",
+      "desc": "See latency, jitter and packet loss over a rolling 60-sample window for each target, with sparklines in the popover."
+    },
+    {
+      "icon": "cpu",
+      "title": "Wi-Fi signal details",
+      "desc": "Read signal, noise, SNR, transmit rate and channel with band and width through CoreWLAN. Weak signal is flagged in the explanation."
+    },
+    {
+      "icon": "sliders",
+      "title": "Thresholds you control",
+      "desc": "Edit the latency, loss and jitter limits for Good and Poor, choose the probe interval and outside host, and enable launch at login."
+    },
+    {
+      "icon": "bell",
+      "title": "Optional Poor alerts",
+      "desc": "Turn on a notification when the verdict becomes Poor. A 5 minute cooldown keeps it from repeating, and probes pause during sleep to avoid false loss."
+    }
+  ],
+  "permissions_step": "No permissions are required for the verdict; optionally allow Location in System Settings > Privacy & Security > Location Services to show your Wi-Fi network name.",
+  "faq": [
+    {
+      "q": "Is LinkQualityGlance really free and open source?",
+      "a": "Yes. It is released under the MIT license, has no accounts, servers or analytics, and the full source is on GitHub. If it helps you, there is an optional Support button that opens Ko-fi."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "None for the verdict itself. Location is optional and only lets macOS reveal your Wi-Fi network name; your location is never read or stored. Notifications and launch at login are requested only if you enable them, and it never asks for Accessibility, Screen Recording or Microphone."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Your settings are saved locally in the app's preferences on your Mac. The only network traffic is small TCP connection probes to your gateway and the outside host you configure; nothing is sent to any server of ours."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, which this free project does not have. Right-click the app and choose Open once to approve it, or build it from source with Xcode."
+    }
+  ]
+}

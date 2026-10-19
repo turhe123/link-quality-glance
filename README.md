@@ -1,5 +1,7 @@
 # LinkQualityGlance
 
+**🌐 Website:** [turhe123.github.io/link-quality-glance](https://turhe123.github.io/link-quality-glance/)
+
 A menu bar verdict on your Wi-Fi health from gateway latency, packet loss, jitter and signal quality.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -29,7 +31,17 @@ On a video call and something feels off: is it your Wi-Fi, or your internet prov
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-popover.png" alt="LinkQualityGlance popover showing a Good Wi-Fi verdict with sparklines and stats" width="720"></p>
+
+<p align="center"><em>The menu bar popover gives a Good verdict, with live latency sparklines for the gateway and outside host, latency/jitter/loss stats, and Wi-Fi signal, Tx rate and channel details.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="LinkQualityGlance Settings window with probing, thresholds and general options" width="560"></p>
+
+<p align="center"><em>Settings let you choose the outside host and probe interval, tune the Good and Poor thresholds, and turn on the menu bar latency readout, notifications and launch at login.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-paused.png" alt="LinkQualityGlance popover in the Paused state" width="560"></p>
+
+<p align="center"><em>Pausing stops the probes and keeps the last measurements on screen until you click Resume.</em></p>
 
 ## Install
 
