@@ -4,6 +4,8 @@
 
 A menu bar verdict on your Wi-Fi health from gateway latency, packet loss, jitter and signal quality.
 
+> 🆓 A free, open-source **MacWiFi alternative** for macOS 14+. Native Swift, no accounts, no subscriptions, MIT licensed.
+
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
 ![Swift 5.9](https://img.shields.io/badge/Swift-5.9-orange)
 ![License MIT](https://img.shields.io/badge/License-MIT-green)
@@ -88,6 +90,10 @@ If this app saves you some head-scratching, you can support its development:
 [Support Or (Leo) Davidai ❤️ on Ko-fi](https://ko-fi.com/leodavidai)
 
 The app also has a "Support / Donate ❤️" button in its dropdown and Settings.
+
+## More free Mac apps
+
+LinkQualityGlance is one of [60 free, open-source Mac utilities](https://github.com/turhe123/mac-apps) built the same way: native Swift, no accounts, no telemetry. Browse the full gallery at [turhe123.github.io/mac-apps](https://turhe123.github.io/mac-apps/).
 
 ## License
 
