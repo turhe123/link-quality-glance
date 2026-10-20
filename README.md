@@ -83,6 +83,17 @@ LinkQualityGlance asks for very little, and the verdict works without any of it:
 
 It does **not** request Accessibility, Screen Recording or Microphone access. Network traffic is limited to small TCP connection probes to your gateway and the outside host you configure.
 
+## Built with AI
+
+LinkQualityGlance was written by [Claude Code](https://claude.com/claude-code) inside an automated pipeline, from a plain-English spec. No code, binaries or assets from any commercial app were used; it is a clean-room reimplementation of a feature set, not a copy.
+
+What that means in practice:
+
+- The full source is in this repo under the MIT license. Read it before you run it.
+- Network access is used only for the feature itself (see Sources). No analytics, no third-party dependencies. Only Apple frameworks.
+- Ad-hoc signed and not notarized, which is why Gatekeeper warns on first launch.
+- It has had less human review than a hand-written app. Bug reports and pull requests are welcome.
+
 ## Support ❤️
 
 If this app saves you some head-scratching, you can support its development:
